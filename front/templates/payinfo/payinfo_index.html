@@ -1,0 +1,40 @@
+{% extends 'base/front_base.html' %}
+{% block title %}
+付费咨询
+{% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/payinfo/payinfo_index.min.css' %}">
+{% endblock head %}
+
+{% block main %}
+<!-- 中间的主体内容 -->
+<div class="main">
+    <div class="wrapper">
+        <div class="main_content_wrapper">
+            <div class="venture_banner">
+                <img src="https://www.xfz.cn/static/build/images/web-shopxfz-banner.jpg" class="venture_banner_img">
+            </div>
+            <ul class="venture_list">
+                {% for payinfo in payinfos  %}
+                    <li>
+                        <a href="#">
+                            <div class="venture_img">
+                                <img src="https://www.xfz.cn/static/build/images/web-bp-pc.png">
+                            </div>
+                            <div class="venture_introduct">
+                                <p class="venture_title">{{ payinfo.title }}</p>
+                                <p class="venture_word">{{ payinfo.profile }}</p>
+                                <p class="venture_price">{{ payinfo.price }}</p>
+                            </div>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- 右边 -->
+        {% include 'common/sidebar.html' %}
+    </div>
+
+</div>
+{% endblock main %}

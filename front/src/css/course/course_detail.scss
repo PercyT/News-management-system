@@ -1,0 +1,187 @@
+@import "../common/init";
+@import "../common/header";
+@import "../common/footer";
+@import "../common/body";
+@import "../common/constants";
+
+.main{
+  margin-top: 64px;
+  .course-nav{
+    width:100%;
+    height: 54px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    .nav-container{
+      width: $pagewidth;
+      margin: 0 auto;
+      height: 54px;
+      overflow: hidden;
+      line-height: 54px;
+      h3.title{
+        float: left;
+        color: #696969;
+        font-size: 24px;
+      }
+      .nav-list{
+        float: left;
+        margin-left: 100px;
+        li{
+          float: left;
+          margin-right: 40px;
+          a{
+            color: #888888;
+          }
+          &.active{
+            a{
+              color: #212121;
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper{
+      width: 1070px;
+      margin-top: 20px;
+      .course-wrapper{
+        background: white;
+        .course-info{
+          padding: 20px;
+          .course-title {
+            color: #212121;
+            font-size: 20px;
+          }
+          .price-group{
+            margin-top: 20px;
+            overflow: hidden;
+            .share-group{
+              float: left;
+              .title{
+                color: #878787;
+                font-size: 14px;
+              }
+            }
+            .buy-group{
+              float: right;
+              .price{
+                font-size: 14px;
+              }
+              .buy-btn{
+                color: #ffffff;
+                background: #ff7700;
+                height: 40px;
+                width: 120px;
+                display: inline-block;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 5px;
+                margin-left: 20px;
+              }
+              .pay{
+                color: #f76363;
+              }
+              .free{
+                color: #7ed321;
+              }
+            }
+          }
+        }
+        .video-group{
+        width: 100%;
+        height: 600px;
+        }
+      }
+      .bottom-wrapper{
+        margin-top:20px ;
+        overflow: hidden;
+        .course-detail-group{
+          float: left;
+          width: 700px;
+          .item-group{
+            margin-top: 20px;
+            background: #ffffff;
+            padding: 20px;
+            .item-title{
+              color: #212121;
+              font-size: 18px;
+              border-left: 5px solid #5c87d9;
+              padding-left: 16px;
+            }
+            .teacher-group{
+              overflow: hidden;
+              margin-top: 20px;
+              .avatar-group{
+                float: left;
+                width: 60px;
+                height: 60px;
+                img{
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 50%;
+                }
+              }
+              .teacher-info{
+                float: left;
+                margin-left: 10px;
+                color: #878787;
+                .teacher-desc{
+                  margin-top: 16px;
+                }
+              }
+            }
+            .item-content{
+                margin-top: 20px;
+                color: rgb(68,68,68);
+                line-height: 1.6;
+              }
+          }
+          .first{
+            margin-top: 0;
+          }
+        }
+        .recommand-wrapper{
+          width: 355px;
+          float: right;
+          background: white;
+          padding: 20px;
+          box-sizing: border-box;
+          .recommand-title{
+            color: #212121;
+            font-size: 18px;
+          }
+          .course-list{
+            li{
+              overflow: hidden;
+              padding: 20px 0;
+              border-bottom: 1px solid #c9c9c9;
+              .course-info-group{
+                float: left;
+                width: 150px;
+                height: 90px;
+                position: relative;
+                .course-title{
+                  font-size: 16px;
+                  color: #212121;
+                }
+                .teacher{
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  color: #878787;
+                }
+              }
+              .thumbnail-group{
+                float: right;
+                width: 160px;
+                height: 90px;
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+}
+

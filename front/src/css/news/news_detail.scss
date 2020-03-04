@@ -1,0 +1,165 @@
+@import "../common/header";
+@import "../common/body";
+@import "../common/footer";
+@import "../common/constants";
+
+.main {
+  .wrapper {
+    .main-content-wrapper {
+      background: white;
+      padding: 20px;
+      box-sizing: border-box; //padding不往外面扩张
+      .news-wrapper {
+        title {
+          font-size: 24px;
+          color: #212121;
+          font-weight: 400;
+        }
+
+        .news-info {
+          overflow: hidden;
+          font-size: 14px;
+          margin-top: 20px;
+          color: #878787;
+          line-height: 28px;
+          height: 28px;
+
+          .info-group {
+            float: left;
+
+            .pub-time {
+              margin-left: 20px;
+            }
+
+            .category {
+              margin-left: 20px;
+              background: #5c87d9;
+              color: white;
+              padding: 0 5px;
+              border-radius: 2px;
+            }
+          }
+
+          .share-group {
+            float: right;
+
+            span {
+              float: left;
+              overflow: hidden;
+            }
+
+            .weixin {
+              float: left;
+              margin-left: 10px;
+              width: 28px;
+              height: 28px;
+              background-image: url("https://www.xfz.cn/static/build/images/share.png");
+              background-size: 220%;
+              background-repeat: no-repeat;
+            }
+
+            .weibo {
+              margin-left: 10px;
+              float: left;
+              width: 28px;
+              height: 28px;
+              background-image: url("https://www.xfz.cn/static/build/images/share.png");
+              background-size: 220%;
+              background-repeat: no-repeat;
+              background-position: -37px 0;
+            }
+          }
+        }
+
+        .article {
+          margin-top: 20px;
+
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .comment-wrapper {
+        border-top: 1px solid #c9c9c9;
+        padding-top: 20px;
+        .title {
+          color: #212121;
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        .comment-textarea {
+          margin-top: 10px;
+          width: 100%;
+          resize: none;
+          outline: none;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 14px;
+          padding: 6px 10px;
+          box-sizing: border-box;
+        }
+
+        .nologin-textarea {
+          height: 40px;
+          line-height: 26px; //40-6-6-2=26
+          overflow: hidden;
+        }
+
+        .logined-textarea {
+          height: 80px;
+        }
+
+        .submit-btn-group {
+          text-align: right;
+          margin-top: 14px;
+
+          .submit-btn {
+            background: #5c87d9;
+            border: none;
+            padding: 8px 15px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+
+        .comment-list {
+          margin-top: 20px;
+
+          li {
+            border-bottom: 1px solid #c9c9c9;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            .comment-info {
+              color: #212121;
+              font-size: 16px;
+              overflow: hidden;
+              height: 40px;
+              line-height: 40px;
+              .avatar {
+                float: left;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+              }
+
+              .author {
+                float: left;
+                margin-left: 20px;
+              }
+              .pub-time{
+                float: right;
+              }
+            }
+            .comment-content{
+              margin-top: 20px;
+              margin-left: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

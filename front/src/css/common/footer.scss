@@ -1,0 +1,110 @@
+@import "constants";
+.footer{
+    font-size: 14px;
+    color: #c9c9c9;
+    padding-top: 20px;
+    .top-group{
+        background: #555e67;
+        height: 100px;
+        padding-top: 26px;
+        box-sizing: border-box; //让里面的边框不超过外面的大盒子
+        .top-inner-group{
+            width: $pagewidth;
+            margin: 0 auto;
+            position: relative;
+            .logo-box{
+                width:168px;
+                height: 54px;
+                float: left;
+                background: url("https://www.xfz.cn/static/build/images/logo-test.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            .detail-group{
+                float: left;
+                margin-left: 100px;
+                .line1{
+                    overflow: hidden;
+                    .links{
+                        float: left;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            padding: 0 10px;
+                            border-right: 1px solid #c9c9c9;
+                             a{
+                                 color: #c9c9c9;
+                             }
+                            &.first-type{
+                                padding-left: 0;
+                            }
+                            &.last-type{
+                                border-right: none;
+                            }
+                        }
+                    }
+                    .about-us{
+                        float: left;
+                        margin-left: 40px;
+                        overflow: hidden;
+                        .title{
+                            float: left;
+                        }
+                        .social-group{
+                            float: left;
+                            overflow: hidden;
+                            li{
+                                float: left;
+                                &.weixin{
+                                    background: url("https://www.xfz.cn/static/build/images/wx-icon.png");
+                                    background-repeat: no-repeat;
+                                    background-size: 38%;
+                                    &:hover .wx-code{
+                                        display: block;   //当点击的时候修改样式 变成block显示出来
+                                    }
+                                    .wx-code{
+                                        width: 204px;
+                                        height: 204px;
+                                        top: -220px;
+                                        right: 360px;
+                                        background: url("https://www.xfz.cn/static/build/images/xfz-wechat-share.png");
+                                        background-size: 100%;
+                                        position: absolute;
+                                        display: none;  //不显示 当hover的时候显示
+                                    }
+                                }
+                                &.weixin2{
+                                    margin-left: 20px;
+                                    background: url("https://www.xfz.cn/static/build/images/wx-icon.png");
+                                    background-repeat: no-repeat;
+                                    background-size: 20%;
+                                }
+                                .text{
+                                    margin-left: 25px;
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .line2{
+                    margin-top: 20px;
+                    overflow: hidden;
+                    .address{
+                        float: left;
+                    }
+                    .content{
+                        margin-left: 40px;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-group{
+        background: #383e44;
+        height: 60px;
+        text-align: center;
+        line-height: 60px ;
+    }
+}

@@ -1,0 +1,76 @@
+@import "../common/init.scss";
+@import "../common/constants.scss";
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer.scss";
+
+
+.main {
+    .wrapper {
+        .main_content_wrapper {
+            background: #fff;
+            // height: 1000px;
+            width: $mainBoxWidth;
+            float: left;
+
+            .venture_banner {
+                img {}
+            }
+
+            .venture_list {
+                margin: 0 15px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                li {
+                    border: 1px solid #ccc;
+                    width: 370px;
+                    height: 149px;
+                    margin-top: 15px;
+                    overflow: hidden;
+                    position: relative;
+
+                    &:hover {
+                        box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.1)
+                    }
+
+                    .venture_img {
+                        float: left;
+                        margin-right: 15px;
+
+                        img {
+                            background-size: 100%;
+                        }
+
+                    }
+
+                    .venture_introduct {
+                        padding: 15px;
+                        color: #212121;
+                        .venture_title {
+                            font-size: 18px;
+                        }
+
+                        .venture_word {
+                            margin-top: 15px;
+                            font-size: 13px;
+                            color: #878787;
+                        }
+
+                        .venture_price {
+                            position: absolute;
+                            margin-right: 15px;
+                            margin-bottom: 15px;
+                            color: #f73e3e;
+                            font-size: 20px;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

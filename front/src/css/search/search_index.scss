@@ -1,0 +1,71 @@
+@import "../common/init.scss";
+@import "../common/constants.scss";
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer.scss";
+@import "../common/new_list";
+
+//主体的左边部分
+.main {
+
+    //将所有内容包起来，不直接写在div.main中。前人经验，不知道好处是什么。
+    .wrapper {
+
+        //将新闻相关的包起来，三部分：横幅、箭头、小圆点
+        .main_content_wrapper {
+            float:left;
+            width:$mainBoxWidth;
+            .search_group {
+                background: #fff;
+                padding: 50px 30px;
+                box-sizing: border-box;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                overflow: hidden;
+
+                .search_input {
+                    input {
+                        float: left;
+                        width: 615px;
+                        height: 46px;
+                        outline: none;
+                        border: 1px solid #ccc;
+                        border-right: none;
+                        border-radius: 3px;
+                        padding-left: 10px;
+                        font-size: 22px;
+                    }
+                }
+
+                .search_btn {
+                    float: left;
+                    color: #fff;
+                    width: 120px;
+                    height: 46px;
+                    text-align: center;
+                    line-height: 46px;
+                    background: #5c87d9;
+                }
+            }
+
+            //轮播图下面的新闻组
+            .list_outer_group {
+                background: #fff;
+                border-top: 1px solid #ccc;
+                overflow: hidden;
+
+                .group_type {
+                    margin: 15px 0 0 20px;
+                    font-size: 18px;
+                }
+
+                //新闻简介
+                .list_inner_group {
+                    //导入了一个函数news_list，讲新闻的详情抽离出来
+                    @include new_list;
+                }
+            }
+        }
+
+    }
+}

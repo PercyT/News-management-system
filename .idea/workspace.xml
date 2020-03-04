@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdc7fea5-328d-49bf-9d73-c3a0d6decaf7" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="xiafan" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Q2sMItudW95Nhv6S5AdKNe55iE" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\django\xiafan\front\dist\css\search" />
+      <recent name="C:\django\xiafan\front\dist\search" />
+      <recent name="C:\django\xiafan\front\dist" />
+      <recent name="C:\django\xiafan\front\dist\adminlte\bower_components" />
+      <recent name="C:\django\xiafan\front\src\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\django\xiafan\front\src\css\course" />
+      <recent name="C:\django\xiafan\front\src\css\news" />
+      <recent name="C:\django\xiafan\front\src\css\common" />
+      <recent name="C:\django\xiafan\front\dist\css" />
+      <recent name="C:\django\xiafan\front\src\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="xiafan" type="Python.DjangoServer" factoryName="Django server">
+      <module name="xiafan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="xiafan.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdc7fea5-328d-49bf-9d73-c3a0d6decaf7" name="默认更改列表" comment="" />
+      <created>1566979975763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566979975763</updated>
+      <workItem from="1566979977562" duration="1800000" />
+      <workItem from="1566981807142" duration="24000" />
+      <workItem from="1566990269092" duration="448000" />
+      <workItem from="1566990802676" duration="1632000" />
+      <workItem from="1566992496473" duration="2643000" />
+      <workItem from="1567084231977" duration="1411000" />
+      <workItem from="1567086007843" duration="14000" />
+      <workItem from="1567130673123" duration="10483000" />
+      <workItem from="1567258117233" duration="5642000" />
+      <workItem from="1567346914860" duration="6363000" />
+      <workItem from="1567424507732" duration="12284000" />
+      <workItem from="1567505341565" duration="12269000" />
+      <workItem from="1567562205165" duration="2573000" />
+      <workItem from="1567585788542" duration="14724000" />
+      <workItem from="1567653863790" duration="3164000" />
+      <workItem from="1567658665690" duration="1626000" />
+      <workItem from="1567773661578" duration="5154000" />
+      <workItem from="1567779653631" duration="17000" />
+      <workItem from="1568007144870" duration="313000" />
+      <workItem from="1568029434380" duration="1003000" />
+      <workItem from="1568031247322" duration="488000" />
+      <workItem from="1568034970066" duration="4659000" />
+      <workItem from="1568083487092" duration="2715000" />
+      <workItem from="1568106699191" duration="5680000" />
+      <workItem from="1568114130540" duration="8557000" />
+      <workItem from="1568129506844" duration="713000" />
+      <workItem from="1568182714345" duration="11614000" />
+      <workItem from="1568206468213" duration="5798000" />
+      <workItem from="1568371513025" duration="8533000" />
+      <workItem from="1568629452532" duration="12013000" />
+      <workItem from="1568723078607" duration="10338000" />
+      <workItem from="1568771908899" duration="3653000" />
+      <workItem from="1568900319836" duration="2342000" />
+      <workItem from="1568903504992" duration="5297000" />
+      <workItem from="1568969547049" duration="14291000" />
+      <workItem from="1569047846452" duration="16597000" />
+      <workItem from="1569146061863" duration="4850000" />
+      <workItem from="1569156279193" duration="11184000" />
+      <workItem from="1569168640865" duration="1593000" />
+      <workItem from="1569232731813" duration="7689000" />
+      <workItem from="1569241539217" duration="8947000" />
+      <workItem from="1569322769607" duration="2822000" />
+      <workItem from="1569390946102" duration="10294000" />
+      <workItem from="1569415919269" duration="3154000" />
+      <workItem from="1569428968505" duration="92000" />
+      <workItem from="1569580026740" duration="9926000" />
+      <workItem from="1569669592537" duration="8158000" />
+      <workItem from="1570270994859" duration="7083000" />
+      <workItem from="1570283451921" duration="111000" />
+      <workItem from="1570446896558" duration="7377000" />
+      <workItem from="1570529940044" duration="14244000" />
+      <workItem from="1570587366725" duration="47000" />
+      <workItem from="1570601500248" duration="5016000" />
+      <workItem from="1570625583345" duration="110000" />
+      <workItem from="1570629253042" duration="1554000" />
+      <workItem from="1570704844537" duration="14270000" />
+      <workItem from="1570790698863" duration="14038000" />
+      <workItem from="1570949855222" duration="62000" />
+      <workItem from="1570949949725" duration="653000" />
+      <workItem from="1571053426964" duration="6411000" />
+      <workItem from="1571137346185" duration="11827000" />
+      <workItem from="1571232117586" duration="3540000" />
+      <workItem from="1571310364809" duration="10916000" />
+      <workItem from="1574083131642" duration="5000" />
+      <workItem from="1574215887660" duration="1636000" />
+      <workItem from="1574217778337" duration="2965000" />
+      <workItem from="1575958104057" duration="287000" />
+      <workItem from="1576558902498" duration="785000" />
+      <workItem from="1577034527872" duration="1537000" />
+      <workItem from="1577620053430" duration="536000" />
+      <workItem from="1583322963426" duration="19000" />
+      <workItem from="1583323179382" duration="3341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/xfzProject-master/apps/xfzauth/urls.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

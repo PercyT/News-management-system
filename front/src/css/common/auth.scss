@@ -1,0 +1,133 @@
+body{
+  background: pink;
+}
+
+.mask-wrapper{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow-y: scroll;
+  display: none;
+  background: rgba(0,0,0,0.6);
+
+  .auth-wrapper{
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -260px;
+
+
+    .close-wrapper{
+      width: 100%;
+      height: 40px;
+      background: white;
+      .close-btn{
+        display: inline-block; //span是行内元素，要设置这个样式使其变成块元素，可以指定宽高
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 8px;
+        color: #878787;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+    .auth-inner-wrapper{
+      width: 100%;
+      height: 480px;
+      position: relative;
+      overflow: hidden;
+      .scroll-wrapper{
+        width: 800px;
+        height: 480px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        .auth-group{
+          width: 400px;
+          padding: 0 20px 20px;
+          box-sizing: border-box;
+          .top-group{
+            height: 36px;
+            border-bottom: 1px solid #c9c9c9;
+            line-height: 36px;
+            .title{
+              float: left;
+              color: #212121;
+              border-bottom: 3px solid #5c87d9;
+            }
+            .switch{
+              float: right;
+              color: #5c87d9;
+              text-decoration: none;
+            }
+          }
+          .form-group{
+            margin-top: 20px;
+            .input-group{
+              height: 40px;
+              margin-bottom: 20px;
+              .form-control{
+                border: 1px solid #ccc;
+                padding: 10px;
+                width: 100%;
+                box-sizing: border-box;
+                height: 40px;
+                outline: none;
+              }
+              .submit-btn{
+                width: 100%;
+                height: 40px;
+                background: #5c87d9;
+                border: none;
+                color: white;
+                cursor: pointer;
+              }
+              .short-input-group{
+                width: 250px;
+                float: left;
+              }
+              .input-group-addon{
+                float: right;
+                width: 100px;
+                .sms-captcha-btn{
+                  width: 100%;
+                  height: 100%;
+                  border: 1px solid #5c87d9;
+                  color: #5c87d9;
+                  display: inline-block;
+                  text-align: center;
+                  line-height: 40px;
+                  box-sizing: border-box;
+                  cursor: pointer;
+                }
+                .disabled{
+                  color: #cccccc;
+                  border-color:#ccc ;
+                }
+              }
+            }
+            .remember-label{
+              font-size: 14px;
+              margin-bottom: 20px;
+              display: inline-block;
+            }
+          }
+        }
+        .signin-group{
+          float: left;
+          background: white;
+        }
+        .signup-group{
+          float: left;
+          background: white;
+        }
+      }
+    }
+  }
+}
